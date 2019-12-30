@@ -3,21 +3,21 @@
     "checkAllCollections": 0,
     "source": {
         "db": "roo",
-        "collection": "",
-        "connectionString": "mongodb://<username>:<password>@lingaproduction-shard-00-00-outu1.mongodb.net:27017,lingaproduction-shard-00-01-outu1.mongodb.net:27017,lingaproduction-shard-00-02-outu1.mongodb.net:27017/{dbName}?ssl=true&replicaSet=LingaProduction-shard-0&authSource=admin&retryWrites=true&w=majority"
+        "collection": "menuItem",
+        "connectionString": "mongodb://<username>:<password>@<mongodb-url>/{dbName}"
     },
     "target": {
         "db": "roo",
-        "collection": "",
-        "connectionString": "mongodb://<username>:<password>@deneme-shard-00-00-outu1.mongodb.net:27017,deneme-shard-00-01-outu1.mongodb.net:27017,deneme-shard-00-02-outu1.mongodb.net:27017/{dbName}?ssl=true&replicaSet=deneme-shard-0&authSource=admin&retryWrites=true&w=majority"
+        "collection": "menuItem",
+        "connectionString": "mongodb://<username>:<password>@<mongodb-url>/{dbName}"
     },
     "email": {
         "secure": true,
-        "host": "smtp.sendgrid.net",
-        "username": "lingaros",
-        "password": "UWF6eC4xMjMh",
-        "from": "MongoDB Sync <autoemail@email.lingapos.com>",
-        "to": "oner@lingapos.com",
+        "host": "<smtp-host>",
+        "username": "username",
+        "password": "******",
+        "from": "MongoDB Sync <mail@mail.com>",
+        "to": "mail@mail.com",
         "port": 587
     }
 }
