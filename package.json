@@ -30,7 +30,7 @@
       "resolved": "https://registry.npmjs.org/memory-pager/-/memory-pager-1.5.0.tgz",
       "version": "1.5.0"
     },
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.2",
     "mongodb": {
       "integrity": "sha512-juqt5/Z42J4DcE7tG7UdVaTKmUC6zinF4yioPfpeOSNBieWSK6qCY+0tfGQcHLKrauWPDdMZVROHJOa8q2pWsA==",
       "requires": {
